@@ -1,0 +1,103 @@
+/* https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg */
+
+body {
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.4), rgba(136, 136, 206, 0.3)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 99%;
+    font-size: Tahoma;
+    font-size: 16px;
+}
+
+#survey {
+    width: 550px;
+    max-height: fit-content;
+    margin: 0 auto;
+    padding: 2px 30px;
+    /* background-color: #1b1b32; */
+    color: #f5f6f7;
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 16px groove rgba(194, 178, 178, 0.1);
+}
+
+#header h1,
+#header p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 2em;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input,
+textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.user-recommend label input {
+    display: inline;
+    margin-top: 30px;
+    justify-content: center;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.checkbox input {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgba(194, 178, 178, 0.1);
+    margin-bottom: 0px;
+}
+
+textarea {
+    max-width: 500px;
+    min-width: 500px;
+}
+
+button:hover {
+    background-color: rgba(8, 8, 52, 0.299);
+    min-width: 100%;
+    border: none;
+}
